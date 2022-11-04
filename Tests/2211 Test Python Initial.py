@@ -1,5 +1,4 @@
-print("Por fin!")
 
-import turtle
+for a in range(0,10):
+    print("Por fin!", a)
 
-turtle.circle(60)
