@@ -1,0 +1,8 @@
+import numpy as np
+import cv2
+ 
+# Crea una imagen en negro
+img = np.zeros((512,512,3), np.uint8)
+ 
+# Dibuja una línea horizontal verde con un grosor de 4 px
+img = cv2.line(img,(0,255),(511,255),(0,255,0),4)

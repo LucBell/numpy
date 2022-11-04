@@ -1,0 +1,6 @@
+import processing
+
+def setup():
+  size(640, 480)
+def draw():
+  ellipse(mouseX, mouseY, 50, 50)
